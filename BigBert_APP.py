@@ -29,7 +29,7 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 
-img = get_img_as_base64("WhatsApp Image 2023-07-25 at 09.25.14.jpeg")
+img = get_img_as_base64("https://github.com/rutvikkumar2108/BigBert_APP/blob/main/WhatsApp%20Image%202023-07-24%20at%2010.04.18.jpeg")
 img2= get_img_as_base64("WhatsApp Image 2023-07-24 at 16.55.49.jpeg")
 
 page_bg_img = f"""
