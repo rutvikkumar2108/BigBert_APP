@@ -2,6 +2,7 @@
 # coding: utf-8
 
 # In[14]:
+
 pip install easyocr
 
 import base64
