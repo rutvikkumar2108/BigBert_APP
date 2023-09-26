@@ -16,7 +16,7 @@ from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 from wordcloud import WordCloud, STOPWORDS
 
 
-img=Image.open('https://github.com/rutvikkumar2108/BigBert_APP/blob/main/logo.jpg')
+img=Image.open('logo.jpg')
 profile_image=Image.open('https://github.com/rutvikkumar2108/BigBert_APP/blob/main/WhatsApp%20Image%202023-07-24%20at%2010.04.18.jpeg')
 qr_image=Image.open('https://github.com/rutvikkumar2108/BigBert_APP/blob/main/WhatsApp%20Image%202023-07-24%20at%2010.08.59.jpeg')
 
