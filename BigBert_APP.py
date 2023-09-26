@@ -3,8 +3,6 @@
 
 # In[14]:
 
-pip install easyocr
-
 import base64
 import pandas as pd
 import numpy as np
