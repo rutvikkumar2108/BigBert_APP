@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[14]:
-pip install easyoc
+pip install easyocr
 
 import base64
 import pandas as pd
