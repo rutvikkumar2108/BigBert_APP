@@ -17,8 +17,8 @@ from wordcloud import WordCloud, STOPWORDS
 
 
 img=Image.open('logo.jpg')
-profile_image=Image.open('https://github.com/rutvikkumar2108/BigBert_APP/blob/main/WhatsApp%20Image%202023-07-24%20at%2010.04.18.jpeg')
-qr_image=Image.open('https://github.com/rutvikkumar2108/BigBert_APP/blob/main/WhatsApp%20Image%202023-07-24%20at%2010.08.59.jpeg')
+profile_image=Image.open('WhatsApp Image 2023-07-24 at 10.04.18.jpeg')
+qr_image=Image.open('WhatsApp Image 2023-07-24 at 10.08.59.jpeg')
 
 st.set_page_config(page_title='BigBert', page_icon=img)
 
@@ -28,8 +28,8 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 
-img = get_img_as_base64("https://github.com/rutvikkumar2108/BigBert_APP/blob/main/WhatsApp%20Image%202023-07-25%20at%2009.25.14.jpeg")
-img2= get_img_as_base64("https://github.com/rutvikkumar2108/BigBert_APP/blob/main/WhatsApp%20Image%202023-07-24%20at%2016.55.49.jpeg")
+img = get_img_as_base64("WhatsApp Image 2023-07-25 at 09.25.14.jpeg")
+img2= get_img_as_base64("WhatsApp Image 2023-07-24 at 16.55.49.jpeg")
 
 page_bg_img = f"""
 <style>
