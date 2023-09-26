@@ -6,5 +6,4 @@ easyocr
 transformers
 wordcloud
 matplotlib
-PIL
 base64
