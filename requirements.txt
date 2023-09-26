@@ -6,4 +6,3 @@ easyocr
 transformers
 wordcloud
 matplotlib
-base64
