@@ -1,11 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
-
-
 import base64
-import streamlit as st
+import streamlit as st 
 import plotly.express as px
 
 df = px.data.iris()
