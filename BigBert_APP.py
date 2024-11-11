@@ -66,7 +66,7 @@ def model(question,text):
 
 rad=st.sidebar.radio('Navigation',['Home','Contribute to Dataset','About Us'])
 
-st.set_option('deprecation.showPyplotGlobalUse',False)
+# st.set_option('deprecation.showPyplotGlobalUse',False)
       
 # this is the main function in which we define our webpage 
 def main():
